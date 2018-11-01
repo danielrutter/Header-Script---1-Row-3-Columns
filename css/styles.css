@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+#container {
+  margin: auto;
+  width: 100%;
+}
+
+header {
+  max-width: 100%;
+  height: 110px;
+  border: 1px solid black;
+}
+
+header-left {
+  width: 18%;
+  height: 100%;
+  float: left;
+  display: block;
+  border-right: 1px solid black;
+}
+
+header-center {
+  width: 64%;
+  height: 100%;
+  display: inline;
+}
+
+header-right {
+  width: 18%;
+  height: 100%;
+  float: right;
+  display: block;
+  border-left: 1px solid black;
+}
